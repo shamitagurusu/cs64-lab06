@@ -65,6 +65,7 @@ colon: .asciiz ":"
         
         li $t7, 1
         move $t9 $s0
+        li $t2, 0
         loop:
             #find sum
             
