@@ -26,7 +26,7 @@ colon: .asciiz ":"
         j exit #jump to exit call
     
     disaggregate:
-        addiu $sp, $sp, -40 #?? = the negative of how many values we store in (stack * 4)
+        addiu $sp, $sp, -28 #?? = the negative of how many values we store in (stack * 4)
         
         #store all required values that need to be preserved across function calls
         sw $s0 0($sp) #store array address on stack $s0
