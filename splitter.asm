@@ -193,7 +193,7 @@ colon: .asciiz ":"
             lw $ra 24($sp)
             
             #Load values before update if you have to
-            addiu $sp, $sp, 40 #?? = the positive of how many values we store in (stack * 4)
+            addiu $sp, $sp, 28 #?? = the positive of how many values we store in (stack * 4)
             #Load values after update if you have to
             jr $ra
     exit:
