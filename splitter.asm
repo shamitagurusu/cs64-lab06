@@ -1,3 +1,4 @@
+#SSH WORKING TESTER
 .data
 #DO NOT CHANGE
 buffer: .word 0:100 #allocated 400 bytes
